@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+<title> Profile </title>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="css/styles4.css" />
+
+<meta charset="utf-8">
+
+<style type="text/css">
+
+body {
+  color: #000000;
+
+}
+
+p {text-align: center;}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="container">
+
+  <img src='images/logo.png' style="width:180px;height:180px alt="logo"
+      class="logo">
+
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html "> HOME </a></li>
+            <li><a href="tour.html "> TOUR </a></li>
+            <li><a href="tickets.html "> BUY TICKETS </a></li>
+            <li><a href="gallery.html "> GALLERY </a></li>
+            <li><a href="about.html "> ABOUT </a></li>
+              <li><a href="profile.html "> Profile </a></li>
+                  <li><a href="cart.html "> Cart </a></li>
+        </ul>
+    </nav>
+</nav>
+</div>
+</header>
+
+<div id="main" ng-app="benendenApp" ng-controller="mainCtrl" ng-class="currentPage">
+  <div class="pageContainer">
+    <div id="login-page" class="page">
+    <img id="logo" src="images/logo.png" alt="logo" />
+    <div id="subtitle"></div>
+    <form action="" novalidate onsubmit="return false;">
+      <div class="validate">
+        <input type="email" placeholder="Email" required/>
+        <div class="valid"></div>
+      </div>
+      <div class="validate">
+        <input type="password" placeholder="Password" required/>
+        <div class="valid"></div>
+      </div>
+      <div class="login-links">
+        Forgot your <a href="#">email</a> or <a href="#">password</a>.
+      </div>
+      <input type="submit" value="Login" ng-click="currentPage = 'articles'" />
+    </form>
+    <div id="join-register">
+      Create Account
+    </div>
+  </div>
+    <div id="home-page" class="page">
+    <article>
+      <img src="https://benenden-contenthub-prod-staging.azurewebsites.net/media/1046/appsforhealth_sml.jpg?anchor=center&mode=crop&width=480&heightratio=0.5714&slimmage=true&rnd=131205666650000000" alt="" />
+      <div class="title">Seven apps for a healthier life</div>
+      <div class="info">By Sarah Burns - 23/02/16</div>
+      <div class="desc">Losing weight, moving more or drinking less – whatever your fitness goal, there’s an app for that. Here’s our list of apps that your body will thank you for.</div>
+    </article>
+    <article>
+      <img src="https://benenden-contenthub-prod-staging.azurewebsites.net/media/1019/alancassidyclimber_lg.jpg?anchor=center&mode=crop&width=480&heightratio=0.5714&slimmage=true&rnd=131205663140000000" alt="" />
+      <div class="title">Leading British climber Alan Cassidy on building fitness</div>
+      <div class="info">By Lewis Dodson - 22/02/16</div>
+      <div class="desc">As a director of one of the UK’s top indoor bouldering centres and one of the best climbers in the country, Alan’s love of his sport features in every aspect of his life.</div>
+    </article>
+    <article>
+      <img src="https://benenden-contenthub-prod-staging.azurewebsites.net/media/1033/familyeatinginthedock_lg.jpg?anchor=center&mode=crop&width=480&heightratio=0.5714&slimmage=true&rnd=131205663140000000" alt="" />
+      <div class="title">Shocking verdict as UK family eating goes in the dock</div>
+      <div class="info">By Paul Smith - 21/02/16</div>
+      <div class="desc">More than two-thirds of adults and school pupils exceed recommended intakes of sugar, salt and saturated fat. Here are some of the report’s key figures.</div>
+    </article>
+    <article>
+      <img src="https://benenden-contenthub-prod-staging.azurewebsites.net/media/1043/alansgrief_lg.jpg?anchor=center&mode=crop&width=480&heightratio=0.5714&slimmage=true&rnd=131205663140000000" alt="" />
+      <div class="title">Widower Alan Ainsley talks about the illness of his pathological grief</div>
+      <div class="info">By Steve Carlson - 21/02/16</div>
+      <div class="desc">I met my wife, Emma Louise Page, 13 or 14 years ago. About six months later, she slipped and broke her leg, and that was due to what turned out to be a tumour – a benign tumour.</div>
+    </article>
+  </div>
+    <div id="account-page" class="page">
+      <div class="listview" ng-class="{'active' : accountPage && !accountPageExit}">
+      <ul>
+        <l
+
+
+  </div>
+  <script src="js/script2.js"></script>
+</div>
+
+
+
+
+
+
+
+<footer>
+    <div class="social-icons ">
+        <img src='images/whatsapp.png' style="width:40px;height:40px " alt="whatsapp ">
+        <img src='images/facebook.png' style="width:40px;height:40px " alt="facebook ">
+        <img src='images/insta.png' style="width:40px;height:40px " alt="insta ">
+        <img src='images/twitter.png' style="width:40px;height:40px " alt="twitter ">
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+
+</body>

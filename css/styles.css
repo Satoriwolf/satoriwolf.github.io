@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    /* white */
+    color: white;
+    font-size: 18px;
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background: #020426;
+    height: 200px;
+}
+
+.logo {
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+
+.image {
+    width: 100%;
+}
+.aboutimage {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+nav {
+    float: right;
+}
+
+nav ul {
+    padding: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+padding: .2em 1em;
+font-family:roboto;
+font-weight: bolder;
+border-radius:4px;
+background-color: #27A7DF
+
+
+}
+
+nav li {
+  display: inline-table;
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: upper
+
+}
+
+nav a:hover {
+    color: #FCBA35;
+}
+
+nav ul li a:hover {
+      color: #27A7DF;
+      background-color: #FCBA35;
+
+}
+
+}
+
+
+
+.buttonlist {
+  text-align:centre;
+  vertical-align: middle;
+  margin-top: 360px;
+
+
+}
+a {text-decoration: none;
+color:inherit;
+}
+
+
+
+.btn{
+Border: 1px solid #FCBA35;
+Background: none;
+Padding: 10px 20px;
+width: 100%;
+Font-size: 20px;
+font-family:roboto;
+font-weight: bolder;
+text-decoration: none;
+Cursor: pointer;
+Margin: 10px;
+Transition: 0.8s;
+Position: relative;
+Overflow: hidden;
+}
+
+.btn1,.btn2{
+Color: #27A7DF;
+}
+
+.btn3,.btn4{
+Color: #FCBA35;
+}
+
+.btn1:hover,.btn2:hover{
+Color: #27A7DF;
+}
+
+.btn3:hover,.btn4:hover{
+Color: #27A7DF;
+}
+
+.btn::before{
+Content: "";
+position: absolute;
+left: 0;
+Width: 100%;
+Height: 0%;
+Background: #020426;
+Z-index: -1;
+Transition: 0.8s;
+}
+
+.btn1::before,.btn3::before{
+top: 0;
+border-radius: 0 0 50% 50%;
+}
+
+.btn2::before,.btn4::before{
+bottom: 0;
+border-radius: 50% 50% 0 0;
+}
+
+.btn3::before,.btn4::before{
+Height: 180%;
+}
+
+.btn1:hover::before,.btn2:hover::before{
+Height: 180%;
+}
+
+.btn3:hover::before,.btn4:hover::before{
+Height: 0%;
+}
+
+
+.gallery {
+margin: 10px 50px;
+}
+
+.gallery img {
+transition: 1s;
+padding: 15px;
+width: 400px;
+}
+
+.gallery img:hover {
+filter:grayscale(100%);
+transform: scale(1.1);
+}
+
+
+.social-icons {
+
+  padding: 20px;
+  width: fit-content;
+  margin: 0 auto;
+  }
+
+  .tourlist {
+padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-icons {
+    padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px)
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+}
